@@ -16,7 +16,9 @@ bibliography: references.bib
 #| message: false
 
 library(tidyverse)
-library(palmerpenguins)
+
+data <- read_csv(here::here("data/analysis_data/analysis_data.csv"))
+
 ```
 
 
@@ -27,15 +29,18 @@ You can and should cross-reference sections and sub-sections. We use @citeR and 
 The remainder of this paper is structured as follows. 
 
 
-
 # Data {#sec-data}
 
+Some of our data is of marriages (@fig-marriage), from @opendatatoronto
 
 ```{r}
-#| label: fig-bills
+#| label: fig-marriage
 #| fig-cap: Bills of penguins
 #| echo: false
 
+data |> 
+  ggplot(aes(x = date, y = marriage_licenses)) +
+  geom_point()
 
 ```
 
