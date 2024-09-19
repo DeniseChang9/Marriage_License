@@ -1,19 +1,21 @@
 #### Preamble ####
-# Purpose: Simulates... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 11 February 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Simulates Marriage License Statistics
+# Author: Denise Chang
+# Date: 19 September 2024
+# Contact: dede.chang@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: None
+# Any other information needed? 
 
 
 #### Workspace setup ####
 library(tidyverse)
-# [...UPDATE THIS...]
 
 #### Simulate data ####
-# [...ADD CODE HERE...]
+date <-
+  tibble(
+    date = as.Date(runif),
+    number_of_marriages = rpois(n = 100, lambda = 15)
+  )
 
-
-
+ 
