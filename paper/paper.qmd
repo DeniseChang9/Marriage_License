@@ -1,10 +1,10 @@
 ---
-title: "Marriage Statistics"
+title: "Marriage Statistics Before and After the Pandemic"
 author: Denise Chang
-thanks: "Code and data are available at: LINK."
+thanks: "Code and data supporting this analysis are available at: https://github.com/DeniseChang9/Marriage_License.git "
 date: today
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "2020 was marked by a worldwide panic affecting many aspects of one's private life. This study aims to investigate the trends in marriage licenses in the City of Toronto from pre and post pandemic times. Based on the exploration of the data, there is strong evidence to support the hypothesis that the number of mariage licenses increased significantly post-pandemic. The results of this study are significant, as they impact the future directions population regulations for governmental institutions."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -31,7 +31,7 @@ The remainder of this paper is structured as follows.
 
 # Data {#sec-data}
 
-Some of our data is of marriages (@fig-marriage), from @opendatatoronto
+Some of our data is of marriages (@fig-marriage), from @opendatatoronto. Before the pandemic, obtaining a marriage license was a relatively simple, in-person process at local government offices. Couples typically applied in person, often requiring a brief waiting period before receiving their license. However, the pandemic disrupted this process, with office closures and restricted services causing delays. In response, many jurisdictions introduced online systems, allowing couples to apply for marriage licenses remotely via virtual meetings or online applications. Post-pandemic, some of these digital services have remained in place, offering more convenience and flexibility, while others returned to in-person operations, though often with extended backlogs due to the disruptions.
 
 ```{r}
 #| label: fig-marriage
@@ -44,24 +44,6 @@ data |>
 
 ```
 
-Talk more about it.
-
-# Results
-
-
-# Discussion
-
-## First discussion point {#sec-first-point}
-
-If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this. 
-
-## Second discussion point
-
-## Third discussion point
-
-## Weaknesses and next steps
-
-Weaknesses and next steps should also be included.
 
 \newpage
 
