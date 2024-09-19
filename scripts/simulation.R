@@ -32,7 +32,7 @@ data <-
       ),
       origin = "1970-01-01"
     ),
-    number_of_marriage = rpois(n = number_of_dates, lambda = 15)
+    number_of_marriage = rpois(n = number_of_dates, lambda = 10)
   )
 
 
